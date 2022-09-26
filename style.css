@@ -1,0 +1,20 @@
+header {
+  width: 1600px;
+  height: 780px;
+}
+.nav_container {
+  display: flex;
+  height: 80px;
+  background-color: black;
+}
+.logo_foot {
+  width: 82px;
+  height: 52px;
+}
+.logo_design {
+  width: 105px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+}
