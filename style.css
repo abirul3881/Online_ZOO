@@ -7,14 +7,101 @@ header {
   height: 80px;
   background-color: black;
 }
+.nav_container a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: orange;
+}
 .logo_foot {
   width: 82px;
   height: 52px;
+  margin-left: 224px;
+  margin-top: 18px;
 }
 .logo_design {
   width: 105px;
   height: 22px;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 22.4px;
+}
+.nav_container_link {
+  margin-left: 70px;
+  margin-top: 29px;
+}
+.nav_container_link_logo_design {
+  margin-left: 438px;
+  margin-top: 29px;
+}
+.header_container-ellipse {
+  position: absolute;
+  margin-top: -770px;
+  margin-left: 807px;
+}
+.header_container-watch {
+  position: absolute;
+  margin-top: -700px;
+  margin-left: 880px;
+}
+.header_container-btn {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 988px;
+}
+.header_container-btn button {
+  width: 298px;
+  height: 54px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.5px;
+  text-align: center;
+  color: white;
+  background-color: #f9804b;
+}
+button:hover {
+  color: orange;
+}
+.main_block {
+  display: flex;
+
+  margin-top: 220px;
+  margin-left: 219px;
+}
+.main_block-bambao-text {
+  margin-left: 87px;
+  width: 465px;
+}
+.main_block-bambao-text h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57.6px;
+  margin-top: -10px;
+}
+.main_block-bambao-text p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+}
+.main_block-bambao-text h4 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+.main_block-bambao-flofer {
+  margin-left: 20px;
+  margin-top: -130px;
 }

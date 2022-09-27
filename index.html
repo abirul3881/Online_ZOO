@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2?family= Roboto: семья= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 & display=swap"
+      rel="stylesheet"
+    />
     <link href="./style.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
   </head>
@@ -12,18 +18,19 @@
       <nav>
         <div class="nav_container">
           <div>
-            <img
-              src="img/logo_footer.png"
-              alt="logo_footer"
-              class="logo_foot"
-            />
+            <a href="#"
+              ><img
+                src="img/logo_footer.png"
+                alt="logo_footer"
+                class="logo_foot"
+            /></a>
           </div>
-          <div><a href="#">About</a></div>
-          <div><a href="#">Map</a></div>
-          <div><a href="#">Zoos</a></div>
-          <div><a href="#">Donate</a></div>
-          <div><a href="#">Contact us</a></div>
-          <div>
+          <div class="nav_container_link"><a href="#">About</a></div>
+          <div class="nav_container_link"><a href="#">Map</a></div>
+          <div class="nav_container_link"><a href="#">Zoos</a></div>
+          <div class="nav_container_link"><a href="#">Donate</a></div>
+          <div class="nav_container_link"><a href="#">Contact us</a></div>
+          <div class="nav_container_link_logo_design">
             <img
               src="img/Designed by ©.png"
               alt="Designed"
@@ -34,8 +41,38 @@
       </nav>
       <div class="header_container">
         <div><img src="img/Giant Panda.png" alt="Panda" /></div>
+        <div class="header_container-ellipse">
+          <img src="img/Ellipse 6.png" alt="Ellipse" />
+        </div>
+        <div class="header_container-watch">
+          <img src="img/Watch your favorite animal online.png" alt="Watch" />
+        </div>
+        <div class="header_container-btn">
+          <button name="button">watсh online</button>
+        </div>
       </div>
     </header>
+    <main>
+      <div class="main_block">
+        <div><img src="img/bamboo-cap.png" alt="bamboo-cap" /></div>
+        <div class="main_block-bambao-text">
+          <h2>The Backstage of the Wilderness World.</h2>
+          <p>
+            The site was founded on the basis of a volunteer movement to protect
+            and care for animals.
+          </p>
+          <h4>How it works</h4>
+          <p>
+            The main goal is to help the animals, as well as the nature reserves
+            and zoos where they are kept. We are currently working on video
+            projects targeting pandas in China, eagles on an island near Los
+            Angeles, alligators in Florida and gorillas in the Congo. These have
+            a total of more than 1,500 mammals and reptiles.
+          </p>
+        </div>
+        <div class="main_block-bambao-flofer"><img src="img/flower_foto1.png" alt="flower_foto1" /></div>
+      </div>
+    </main>
     <script src="./app.js"></script>
   </body>
 </html>
