@@ -105,3 +105,52 @@ button:hover {
   margin-left: 20px;
   margin-top: -130px;
 }
+
+.main_block_card {
+  display: grid;
+  grid-template-columns: repeat(3, 366px);
+  grid-template-rows: repeat(2, 426px);
+  margin-top: 120px;
+  margin-left: 220px;
+  grid-column-gap: 30px;
+  grid-row-gap: 20px;
+}
+
+.main_block_card-elips-left {
+  position: absolute;
+  margin-top: 390px;
+  margin-left: 138px;
+}
+.main_block_card-elips-right {
+  position: absolute;
+  margin-top: -480px;
+  margin-left: 1398px;
+}
+.main_block_card_btn {
+  display: grid;
+  grid-template-columns: 880px 298px 368px;
+}
+.main_block_card_btn-palm {
+  margin-top: -225px;
+}
+.main_block_card_btn-button {
+  margin-top: 80px;
+  margin-left: -225px;
+}
+.main_block_card_btn-button button {
+  width: 298px;
+  height: 54px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.5px;
+  text-align: center;
+  color: white;
+  background-color: #f9804b;
+}
+button:hover {
+  color: orange;
+}
+.main_block_card_btn-strelitzia {
+  margin-top: -40px;
+}
