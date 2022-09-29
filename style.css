@@ -153,4 +153,105 @@ button:hover {
 }
 .main_block_card_btn-strelitzia {
   margin-top: -40px;
+  margin-left: 53px;
+}
+
+.main_zone_friend {
+  width: 1600px;
+  height: 1004px;
+  margin-top: -5px;
+  background-color: #fed290;
+}
+.main_zone_friend-padding {
+  position: absolute;
+  width: 1160px;
+  height: 835px;
+  margin: 69px 220px 100px 220px;
+  background-color: rgba(253, 253, 255, 0.52);
+}
+.main_zone_friend-header h2 {
+  text-align: center;
+  padding-top: 41px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57.6px;
+  color: #fe9013;
+}
+.main_zone_friend-header-two p {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+.main_zone_friend-header-three p {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28.8px;
+}
+.main_zone_friend-header-four p {
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+}
+.main_zone_friend-header-five h2 {
+  text-align: center;
+  padding-top: 41px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57.6px;
+}
+.main_zone_friend-card-block {
+  display: flex;
+  margin-left: 198px;
+}
+.main_zone_friend-card-block-two {
+  margin-left: 30px;
+}
+.main_zone_friend-card-block-three {
+  margin-left: 30px;
+}
+.main_zone_friend-card-block-vector {
+  width: 69px;
+  height: 35px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.main_zone_friend-btn button {
+  width: 298px;
+  height: 54px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.5px;
+  text-align: center;
+  color: white;
+  background-color: #f9804b;
+  margin-top: 25px;
+  margin-left: 431px;
+}
+button:hover {
+  color: orange;
+}
+
+.main_sone_testimonials h3 {
+  margin-top: 140px;
+  margin-left: 725px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46.8px;
+}
+.main_sone_testimonials-card {
+  display: flex;
+  margin-left: 220px;
+}
+.main_sone_testimonials-card-card {
+  margin-left: 30px;
 }
