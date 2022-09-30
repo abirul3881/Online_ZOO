@@ -255,3 +255,98 @@ button:hover {
 .main_sone_testimonials-card-card {
   margin-left: 30px;
 }
+.main_sone-scroll {
+  margin-top: 20px;
+  margin-left: 505px;
+}
+.main_sone_testimonials-btn button {
+  width: 298px;
+  height: 54px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.5px;
+  text-align: center;
+  color: white;
+  background-color: #f9804b;
+  margin-top: 25px;
+  margin-left: 220px;
+}
+button:hover {
+  color: orange;
+}
+.main_sone-leav-foto {
+  margin-top: -100px;
+  margin-left: 1353px;
+}
+
+.footer_block {
+  width: 1600px;
+  height: 443px;
+  margin-top: -115px;
+  background-color: black;
+}
+.footer_block-logo {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 220px;
+}
+.footer_block-form p {
+  padding-top: 40px;
+  padding-left: 1015px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: white;
+}
+.footer_block-form textarea {
+  width: 228px;
+  height: 42px;
+  margin-top: 15px;
+  margin-left: 1015px;
+  background-color: black;
+  color: white;
+  border-color: #f9804b;
+}
+.footer_block-form input {
+  position: absolute;
+  width: 129px;
+  height: 42px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.footer_block-btn button {
+  width: 298px;
+  height: 54px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.5px;
+  text-align: center;
+  color: white;
+  background-color: #f9804b;
+  margin-left: 220px;
+}
+button:hover {
+  color: orange;
+}
+.footer_block-social-network {
+  margin-top: 40px;
+  margin-left: 180px;
+}
+.footer_block-social-network li {
+  line-height: 2;
+}
+.footer_block-link {
+  display: flex;
+  margin-top: -45px;
+  margin-left: 550px;
+}
+.foot_container_link a {
+  text-decoration: none;
+  margin-left: 60px;
+}
+.footer_block-designed {
+  margin-left: 1300px;
+}
